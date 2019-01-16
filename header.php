@@ -12,13 +12,13 @@
 
 <body <?php body_class(); ?>>
 
-	<header id='site-header'>
+	<header id='site-header'>  
 		<h1><?php bloginfo( 'title' ) ?></h1>
 	</header>
 
 	<div id='site-container'>
 		<div id='site-sidebar'>
-		Sidebar goes here
+    		Sidebar goes here
 		</div>
 
 	<div id='site-content'>
