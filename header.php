@@ -14,12 +14,14 @@
 
 	<header id='site-header'>  
 		<h1><?php bloginfo( 'title' ) ?></h1>
+		
+		<div id='site-menu'>
+			<?php wp_nav_menu( array( "theme_location" => 'header-menu' ) ) ?>
+		</div>
+		
 	</header>
 
 	<div id='site-container'>
-		<div id='site-sidebar'>
-    		Sidebar goes here
-		</div>
-
+		<?php get_sidebar() ?> 
 	<div id='site-content'>
 	

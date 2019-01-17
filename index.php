@@ -9,7 +9,6 @@
 			</div>
 			<a href='<?php the_permalink() ?>' class='button'>Read On</a>  
 		</div>
-		
 	<?php endwhile ?>
 <?php else : ?>
 	<p>Oh No, there are no posts!</p>
